@@ -1,5 +1,5 @@
 /**
- *Submitted for verification at BscScan.com on 2021-03-22
+ *Submitted for verification at BscScan.com on 2021-04-05
 */
 
 pragma solidity 0.5.16;
@@ -179,7 +179,7 @@ contract PiCommunityFundToken is Context, IBEP20, Ownable {
     _name = "Pi Community Fund Token";
     _symbol = "PCFT";
     _decimals = 18;
-    _totalSupply = 100000000000000000000000;
+    _totalSupply = 500000000000000000000000;
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
